@@ -97,7 +97,7 @@ public class BinarySearchSimulation extends AlgorithmSimulation {
         ObservableList<Node> deepCopy = FXCollections.observableArrayList();
         deepCopy.addAll(sortedList);
 
-        // Clear previous list of Nodes so we don't get duplicate add errors.
+        // Clear previous list of Nodes, so we don't get duplicate add errors.
         gridPane.getChildren().clear();
 
         // Apparently I have to loop over gridPane and re-Add the sorted Nodes instead of using getChildren().addAll()
